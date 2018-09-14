@@ -16,9 +16,9 @@ token = json.load(tokenOpen)
 sb = LINE(token["sb"])
 sb.log("Auth Token : " + str(sb.authToken))
 channelToken = sb.getChannelResult()
-pb1 = LINE(token["pb1"])
+pb1 = LINE()
 pb1.log("Auth Token : " + str(pb1.authToken))
-pb2 = LINE(token["pb2"])
+pb2 = LINE("bot2su2019@gmail.com","nunu_kap2019")
 pb2.log("Auth Token : " + str(pb2.authToken))
 pb3 = LINE(token["pb3"])
 pb3.log("Auth Token : " + str(pb3.authToken))
@@ -61,7 +61,7 @@ settings={
     "lang":"JP",
     "prankRespon": True,
     "prankcontact":False,
-    "message": "THANKS FOR ADD ME\nCREATOR BY\nhttp://line.me/ti/p/~adiputra.95",
+    "message": "THANKS FOR ADD ME\nCREATOR BY\nhttp://line.me/ti/p/~nunu_kap123",
     "prankTL":False,
     "prankAdd":False,
     "keyCommand": ".",
